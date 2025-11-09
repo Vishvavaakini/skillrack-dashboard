@@ -11,7 +11,7 @@ const SkillRackDashboard = () => {
   const [urlValid, setUrlValid] = useState(null);
 
   // API base URL - change this to your backend URL
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'https://skill-vlhb.onrender.com';
 
   // Mock data for demonstration
   const mockData = {
@@ -524,5 +524,6 @@ const SkillRackDashboard = () => {
     </div>
   );
 };
+
 
 export default SkillRackDashboard;
