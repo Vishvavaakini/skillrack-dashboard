@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, PieChart, Pie, Cell, LineChart, Line, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,  PieChart, Pie, Cell,  ResponsiveContainer } from 'recharts';
 import { User, Trophy, Code, Target, TrendingUp, Award, Calendar, School, AlertCircle, CheckCircle, Loader2 } from 'lucide-react';
 
 const SkillRackDashboard = () => {
@@ -527,3 +527,4 @@ const SkillRackDashboard = () => {
 
 
 export default SkillRackDashboard;
+
